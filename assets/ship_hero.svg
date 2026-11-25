@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" fill="none">
+  <defs>
+    <linearGradient id="hull" x1="191" y1="295" x2="832" y2="359" gradientUnits="userSpaceOnUse"><stop stop-color="#F9FCFB"/><stop offset="1" stop-color="#BFD8D8"/></linearGradient>
+    <linearGradient id="deck" x1="408" y1="121" x2="669" y2="273" gradientUnits="userSpaceOnUse"><stop stop-color="#F7FAF8"/><stop offset="1" stop-color="#C8DCDD"/></linearGradient>
+    <linearGradient id="wave" x1="104" y1="376" x2="942" y2="435" gradientUnits="userSpaceOnUse"><stop stop-color="#4CB6B4"/><stop offset="1" stop-color="#B8E9E0"/></linearGradient>
+    <filter id="glow" x="243" y="68" width="595" height="339" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <ellipse cx="544" cy="321" rx="275" ry="68" fill="#5BD2C5" fill-opacity=".2" filter="url(#glow)"/>
+  <path d="M156 314h710l-74 91H229l-73-91Z" fill="url(#hull)"/>
+  <path d="M235 311h594" stroke="#1F9A9B" stroke-width="10"/>
+  <path d="M349 309V168h259v143M629 309V210h105v99" fill="url(#deck)" stroke="#D9E7E6" stroke-width="5"/>
+  <path d="M381 193h45v44h-45zm67 0h45v44h-45zm67 0h45v44h-45zM652 232h25v35h-25zm42 0h25v35h-25z" fill="#D5AE62"/>
+  <path d="M408 167v-48l51 28v20m114 0V91l59 32v44" stroke="#E9F2EF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M163 416c87-26 150-26 238 0s151 26 239 0 151-26 238 0" stroke="url(#wave)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M237 448c62-17 108-17 170 0s108 17 170 0 108-17 170 0 108 17 170 0" stroke="#C7EAE2" stroke-opacity=".62" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="810" cy="105" r="35" fill="#E8D19B" fill-opacity=".9"/>
+  <circle cx="810" cy="105" r="56" stroke="#F2E2BD" stroke-opacity=".25" stroke-width="1.5"/>
+</svg>
